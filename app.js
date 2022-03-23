@@ -1,8 +1,16 @@
-// import functions
+console.log('hello from app.js');
 
-// grab DOM elements
+let myName = 'Aaron';
 
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
+console.log(`Hello ${myName}`);
+console.log(`${myName} is very tall`);
+
+
+
+
+const button = document.getElementById('button');
+button.addEventListener('click', ()=>{
+
+    const inputs = document.getElementById('email');
+
+});

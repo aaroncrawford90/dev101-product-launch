@@ -10,6 +10,7 @@
 
 body {
     display: flex;
+    display: table-row;
     color: var(--cadet-blue)
 }
 
@@ -26,7 +27,11 @@ ul{
 }
  
 img {
-    width: 50vw;
+    width: 25vw;
 }
 
 body {background-color: var(--eerie-black);}
+
+.hide {
+    display: none;
+}
